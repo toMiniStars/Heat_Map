@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: lightgrey;
+}
+
+#title {
+  text-align: center;
+  font-size: 24px;
+}
+
+#description {
+  text-align: center;
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+#heatmap {
+  margin-top: 30px;
+}
+
+.cell {
+  stroke: #fff;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  pointer-events: none;
+  z-index: 1;
+  transform: translate(-50%, -100%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+}
